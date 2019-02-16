@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox alignment="CENTER" maxHeight="700.0" maxWidth="700.0"
+	minHeight="300.0" minWidth="300.0" prefHeight="500.0" prefWidth="500.0"
+	xmlns:fx="http://javafx.com/fxml/1"
+	xmlns="http://javafx.com/javafx/2.2">
+	<!-- TODO Add Nodes -->
+	<children>
+		<Button mnemonicParsing="false" prefHeight="94.0"
+			prefWidth="132.0" text="Button" />
+		<Button mnemonicParsing="false" prefWidth="231.0" text="Button"
+			textAlignment="JUSTIFY" />
+		<Button mnemonicParsing="false" prefHeight="66.0"
+			prefWidth="162.0" text="Button" />
+	</children>
+</HBox>
