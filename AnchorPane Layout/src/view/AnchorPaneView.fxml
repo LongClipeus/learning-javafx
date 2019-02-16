@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="700.0" maxWidth="700.0"
+	minHeight="300.0" minWidth="300.0" prefHeight="500.0" prefWidth="500.0"
+	xmlns:fx="http://javafx.com/fxml/1"
+	xmlns="http://javafx.com/javafx/2.2">
+	<!-- TODO Add Nodes -->
+	<children>
+		<Button mnemonicParsing="false" prefHeight="31.0"
+			prefWidth="135.0" text="Button" AnchorPane.bottomAnchor="424.0"
+			AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="217.0"
+			AnchorPane.topAnchor="45.0" />
+		<Button mnemonicParsing="false" prefHeight="63.0"
+			prefWidth="135.0" text="Button" AnchorPane.bottomAnchor="265.0"
+			AnchorPane.leftAnchor="45.0" AnchorPane.rightAnchor="320.0"
+			AnchorPane.topAnchor="170.0" />
+		<Button layoutX="325.0" mnemonicParsing="false"
+			prefHeight="52.0" prefWidth="94.0" text="Button"
+			AnchorPane.bottomAnchor="50.0" />
+		<Button layoutX="325.0" mnemonicParsing="false"
+			prefWidth="149.0" text="Button" AnchorPane.topAnchor="130.0" />
+		<Button mnemonicParsing="false" prefHeight="83.0" text="Button"
+			AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="230.0"
+			AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="240.0" />
+	</children>
+</AnchorPane>
