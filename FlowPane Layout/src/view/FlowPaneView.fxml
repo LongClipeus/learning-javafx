@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.FlowPane?>
+
+<FlowPane alignment="TOP_LEFT" disable="false"
+	focusTraversable="false" hgap="10.0" maxHeight="700.0" maxWidth="700.0"
+	minHeight="300.0" minWidth="300.0" opacity="1.0" prefHeight="500.0"
+	prefWidth="499.9998779296875" vgap="10.0" visible="true"
+	xmlns:fx="http://javafx.com/fxml/1"
+	xmlns="http://javafx.com/javafx/2.2">
+	<!-- TODO Add Nodes -->
+	<children>
+		<TextField alignment="CENTER" mouseTransparent="false"
+			pickOnBounds="false" prefHeight="70.0" prefWidth="250.0" />
+		<Button mnemonicParsing="false" prefHeight="70.0"
+			prefWidth="148.0" text="Button" />
+		<Button mnemonicParsing="false" prefHeight="70.0"
+			prefWidth="148.0" text="Button" />
+		<TextField alignment="CENTER" mouseTransparent="false"
+			pickOnBounds="false" prefHeight="70.0" prefWidth="250.0" />
+		<Button mnemonicParsing="false" prefHeight="70.0"
+			prefWidth="148.0" text="Button" />
+		<Button mnemonicParsing="false" prefHeight="70.0"
+			prefWidth="148.0" text="Button" />
+		<Button mnemonicParsing="false" prefHeight="70.0"
+			prefWidth="148.0" text="Button" />
+	</children>
+</FlowPane>
