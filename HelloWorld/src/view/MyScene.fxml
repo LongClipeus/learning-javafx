@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="276.0" prefWidth="334.0"
+	xmlns:fx="http://javafx.com/fxml/1"
+	xmlns="http://javafx.com/javafx/2.2"
+	fx:controller="controller.ShowTime">
+	<children>
+		<Button fx:id="btnShowDateTime" layoutX="62.0" layoutY="52.0"
+			mnemonicParsing="false" onAction="#ShowDateTime"
+			text="Show Date Time Current" textAlignment="JUSTIFY"
+			textFill="BLACK">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Button>
+		<TextField fx:id="txtfDateTime" alignment="CENTER"
+			disable="true" editable="true" layoutX="67.0" layoutY="145.0"
+			opacity="0.45" prefWidth="200.0" promptText="date time" />
+	</children>
+</AnchorPane>
