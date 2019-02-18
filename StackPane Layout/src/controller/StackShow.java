@@ -43,7 +43,6 @@ public class StackShow implements Initializable {
 		if (childNumber > 1) {
 			Node topNode = childs.get(childNumber - 1);
 			if (topNode.getId().equals("btnChangeTop")) {
-				System.out.println(topNode.getId() + " to back");
 				topNode.toBack();
 				topNode = childs.get(childNumber - 1);
 			}
