@@ -1,0 +1,9 @@
+JavaFX is a software platform for creating and delivering desktop applications, as well as rich Internet applications (RIAs) that can run across a wide variety of devices. JavaFX is intended to replace Swing as the standard GUI library for Java SE, but both will be included for the foreseeable future.[3] JavaFX has support for desktop computers and web browsers on Microsoft Windows, Linux, and macOS. JavaFX is no longer bundled with the latest Java, nor will be supported by Oracle, while it still is supported for the current long-term version Java SE 8 through March 2022.
+
+Before version 2.0 of JavaFX, developers used a statically typed, declarative language called JavaFX Script to build JavaFX applications. Because JavaFX Script was compiled to Java bytecode, programmers could also use Java code instead. JavaFX applications could run on any desktop that could run Java SE or on any mobile phone that could run Java ME.
+
+JavaFX 2.0 and later is implemented as a "native" Java library, and applications using JavaFX are written in "native" Java code. JavaFX Script has been scrapped by Oracle, but development is being continued in the Visage project.[4] JavaFX 2.x does not support the Solaris operating system or mobile phones; however, Oracle plans to integrate JavaFX to Java SE Embedded 8, and Java FX for ARM processors is in developer preview phase
+
+On desktops, JavaFX supports Windows Vista, Windows 7, Windows 8, Windows 10,[6] macOS and Linux operating systems.[7] Beginning with JavaFX 1.2, Oracle has released beta versions for OpenSolaris.[8] On mobile, JavaFX Mobile 1.x is capable of running on multiple mobile operating systems, including Symbian OS, Windows Mobile, and proprietary real-time operating systems. 
+
+
