@@ -35,14 +35,8 @@ public class FullScreenVideoPlayer extends Application {
 			final DoubleProperty width = mv.fitWidthProperty();
 			final DoubleProperty height = mv.fitHeightProperty();
 
-			System.out.println(mv.sceneProperty() + "");
-			System.out.println(mv.parentProperty() + "");
-			System.out.println(Bindings.selectDouble(mv.sceneProperty(), "width") + "");
 			width.bind(Bindings.selectDouble(mv.sceneProperty(), "width"));
 			height.bind(Bindings.selectDouble(mv.sceneProperty(), "height"));
-//			            Bindings.selectDouble(mv.parentProperty(), "width").divide(2));
-			System.out.println(width);
-			System.out.println(height);
 
 			mv.setPreserveRatio(true);
 
